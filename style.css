@@ -54,7 +54,8 @@ h1 span { color: #e0d9ff; }
 .downloads .eyebrow { justify-content: center; }
 .downloads .section-description { margin-inline: auto; max-width: 44ch; }
 .beta-banner { margin: 40px auto 28px; max-width: 650px; padding: 20px 26px; border: 1px solid #efca742e; border-radius: 12px; background: #c89b4010; }
-.beta-label { font-size: 10px; letter-spacing: .12em; color: #edcd87; font-weight: 650; display: flex; gap: 8px; align-items: center; justify-content: center; }
+.beta-label { font-size: 10px; letter-spacing: .12em; color: #edcd87; font-weight: 650; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
+.game-version { font-size: 11px; letter-spacing: .04em; padding: 3px 8px; border: 1px solid #efca7440; border-radius: 100px; white-space: nowrap; }
 .beta-banner p { font-size: 12px; line-height: 1.7; color: #c4bca9; margin-top: 8px; }
 .button-container { display: flex; justify-content: center; gap: 16px; max-width: 650px; margin: 0 auto; }
 .download-btn { display: flex; align-items: center; gap: 18px; flex: 1; text-align: left; border: 1px solid #ffffff25; border-radius: 14px; padding: 24px; background: #17171d; transition: background .2s, border-color .2s, transform .2s; }
