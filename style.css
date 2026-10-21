@@ -44,12 +44,6 @@ h1 span { color: #e0d9ff; }
 .text-link { display: inline-flex; align-items: center; gap: 25px; font-size: 13px; font-weight: 600; line-height: 1.4; padding-block: 13px; margin-top: 22px; border-bottom: 1px solid #ffffff6b; }
 .text-link span { transition: transform .2s; }
 .text-link:hover span { transform: translateY(4px); }
-.scene-bottom { position: absolute; bottom: 30px; left: var(--gutter); right: var(--gutter); display: flex; justify-content: space-between; align-items: end; gap: 20px; color: #e8e5ef; }
-.scene-bottom p { font-size: 9px; font-weight: 500; letter-spacing: .14em; line-height: 1.7; }
-.scene-bottom p span { display: block; font-size: 10px; font-weight: 400; letter-spacing: .02em; opacity: .75; }
-.scene-hero .scene-bottom p { text-align: right; }
-.scroll-cue { display: flex; align-items: center; gap: 12px; font-size: 9px; letter-spacing: .18em; min-height: 44px; }
-.scroll-line { display: block; width: 1px; height: 28px; background: linear-gradient(#ffffff10,#fff); }
 .section-pad { padding: clamp(90px, 12vw, 180px) var(--gutter); }
 .downloads h2 { font-size: clamp(3.2rem, 6.5vw, 6.5rem); }
 .muted { color: #777780; }
@@ -104,10 +98,6 @@ footer p { font-size: 10px; color: #86838f; line-height: 1.7; max-width: 55ch; }
     .hero-description { font-size: 13px; margin-top: 22px; }
     .scene-hero .scene-image { object-position: 42% center; }
     .scene-hero .scene-shade { background: linear-gradient(0deg, #040910ed, #04091075 50%, #04091008 85%, #04091080); }
-    .scene-bottom { bottom: 25px; }
-    .scene-bottom p { font-size: 8px; letter-spacing: .08em; }
-    .scene-bottom p span { font-size: 9px; }
-    .scroll-cue { font-size: 8px; letter-spacing: .1em; gap: 8px; }
     .text-link { font-size: 12px; margin-top: 14px; }
     .section-pad { padding-block: 95px; }
     .downloads h2 { font-size: clamp(2.7rem, 11.5vw, 4rem); }
@@ -126,8 +116,6 @@ footer p { font-size: 10px; color: #86838f; line-height: 1.7; max-width: 55ch; }
     .eyebrow { margin-bottom: 12px; }
     .hero-description { margin-top: 12px; font-size: 13px; }
     .text-link { margin-top: 8px; padding-block: 8px; }
-    .scene-bottom { bottom: 10px; }
-    .scene-bottom p, .scroll-cue { font-size: 8px; }
 }
 
 /* Leave enough room for the title and controls on landscape phones. */
